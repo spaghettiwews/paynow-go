@@ -25,7 +25,7 @@ func MakeHash(_args map[string]string, integrationKey string) string {
 		}
 	}
 	
-	stringer = stringer + int_key
+	stringer = stringer + integrationKey
 	alg := sha512.New()
 	alg.Write([]byte(stringer))
 	hash := hex.EncodeToString(alg.Sum(nil))
