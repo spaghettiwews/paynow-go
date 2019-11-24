@@ -7,12 +7,13 @@ import (
 	"strings"
 )
 
-func MakeHash(_args map[string]string, int_key string) string {
+// MakeHash ...
+func MakeHash(_args map[string]string, integrationKey string) string {
 	var stringer string
 	args := _args
 
 	var keys []string
-	for key, _ := range args {
+	for key := range args {
 		keys = append(keys, key)
 	}
 
@@ -31,6 +32,7 @@ func MakeHash(_args map[string]string, int_key string) string {
 	return strings.ToUpper(hash)
 }
 
+// VerifyHash ...
 func VerifyHash() bool {
 	return false
 }

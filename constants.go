@@ -1,9 +1,10 @@
 package paynow
 
+// Comment
 const (
 	ResponseOk string = "ok"
 	ResponseError string = "error"
-	ResponseInvalidId string = "invalid id"
-	UrlInitiateTransaction string = "https://www.paynow.co.zw/interface/initiatetransaction"
-	UrlInitiateMobileTransaction string = "https://www.paynow.co.zw/interface/initiatetransaction"
+	ResponseInvalidID string = "invalid id"
+	URLInitiateTransaction string = "https://www.paynow.co.zw/interface/initiatetransaction"
+	URLInitiateMobileTransaction string = "https://www.paynow.co.zw/interface/initiatetransaction"
 )
