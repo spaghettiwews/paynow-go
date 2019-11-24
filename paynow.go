@@ -1,4 +1,4 @@
-package paynow-go
+package paynow
 
 type Paynow struct {
 	id, key, resultUrl, returnUrl string

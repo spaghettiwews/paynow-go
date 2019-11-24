@@ -1,4 +1,4 @@
-package paynow-go
+package paynow
 
 type Payment struct {
 	reference string

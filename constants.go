@@ -1,4 +1,4 @@
-package paynow-go
+package paynow
 
 const (
 	ResponseOk string = "ok"

@@ -1,4 +1,4 @@
-package paynow-go
+package paynow
 
 import (
 	"crypto/sha512"
