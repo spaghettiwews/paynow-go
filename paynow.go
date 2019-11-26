@@ -3,8 +3,9 @@ package paynow
 // Paynow ...
 type Paynow struct {
 	id, key, resultURL, returnURL string
-	Payment Payment
+	Payment
 }
+
 // NewPaynow ...
 func NewPaynow(id string, key string, resultURL string, returnURL string) *Paynow {
     p := new(Paynow)
