@@ -3,7 +3,7 @@ package paynow
 // Paynow ...
 type Paynow struct {
 	id, key, resultURL, returnURL string
-	Payment
+	*Payment
 }
 
 // NewPaynow ...
